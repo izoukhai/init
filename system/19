@@ -1,0 +1,28 @@
+/* La commande service --status-all affiche les services au demarrage */
+ [ - ]  alsa-utils
+ [ - ]  anacron
+ [ + ]  avahi-daemon
+ [ - ]  console-setup.sh
+ [ + ]  cpufrequtils
+ [ + ]  cron
+ [ + ]  cups
+ [ + ]  cups-browsed
+ [ + ]  dbus
+ [ - ]  hwclock.sh
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  lightdm
+ [ + ]  loadcpufreq
+ [ + ]  network-manager
+ [ + ]  networking
+ [ - ]  pppd-dns
+ [ + ]  procps
+ [ - ]  rsync
+ [ + ]  rsyslog
+ [ - ]  saned
+ [ + ]  speech-dispatcher
+ [ + ]  ssh
+ [ - ]  sudo
+ [ + ]  udev
+ [ - ]  x11-common
+

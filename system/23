@@ -1,0 +1,3 @@
+/* En session graphique: il suffit de se deconnecter et changer d'utilisateur
+
+En SSH: il suffit de taper dans le terminal "ssh username@server" */
