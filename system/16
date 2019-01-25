@@ -1,0 +1,1 @@
+/* La commande "cron" permet d'automatiser des taches: cron [minute] [heure] [jour] [mois] [jour de la semaine] [la commande] */
