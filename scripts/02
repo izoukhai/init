@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ -z $1 ]
+then
+	echo "usage: sh 02 [username]"
+else
+	user=$1
+	connect=$(users | tr ' ' '\n' | grep "$user")
+	if [ "$user" == "$connect" ]
+	then
+		passwd -l $user
+		crontab -r -u $user
+		pkill -u $user
+		userdel -fr $user
+		echo "$user deleted."
+	else
+		echo "$user is not logged in or doesn't exist."
+	fi
+fi
