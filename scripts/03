@@ -1,0 +1,18 @@
+#!/bin/bash
+
+read -p "Entrez un chiffre entre 1 et 9: " digit
+let result1=(2 * $digit)
+let tmp=($result1 + 5)
+let result2=($tmp * 50)
+read -p "As tu deja fete ton anniversaire cette annee ?(y/n) " anniv
+if [ "$anniv" == "y" ]
+then
+	let result3=($result2 + 1767)
+else
+	let result3=($result2 + 1768)                               
+fi
+read -p "Ok t'es ne en quelle annee ? :" annee
+let result4=($result3 - $annee)
+echo "$result4, les deux derniers chiffres sont ton age actuel."
+
+
